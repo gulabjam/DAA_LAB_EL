@@ -45,10 +45,7 @@ npx serve dist
 ```
 
 ## Deployment (Netlify)
-1. Push your code to GitHub, GitLab, or Bitbucket.
-2. Go to [Netlify](https://app.netlify.com/) and create a new site from Git.
-3. Set the build command to `npm run build` and the publish directory to `dist`.
-4. Deploy and get your live URL!
+The app is publicly deployed at [Tic-Tac-Toe](https://sprightly-florentine-7e0bfd.netlify.app/)
 
 ## Project Structure
 - `src/components/DecisionTree.tsx` — Main AI tree visualization and explanations
