@@ -22,7 +22,7 @@ export const difficultyConfigs: Record<DifficultyLevel, DifficultyConfig> = {
   hard: {
     name: 'Hard',
     description: 'Challenging opponent - AI rarely makes mistakes',
-    maxDepth: 7,
+    maxDepth: 6,
     thinkingTime: 800,
     mistakeChance: 0.05,
     color: 'text-orange-600',
@@ -31,7 +31,7 @@ export const difficultyConfigs: Record<DifficultyLevel, DifficultyConfig> = {
   expert: {
     name: 'Expert',
     description: 'Ultimate challenge - Perfect AI play',
-    maxDepth: 9,
+    maxDepth: 7,
     thinkingTime: 1000,
     mistakeChance: 0,
     color: 'text-red-600',
